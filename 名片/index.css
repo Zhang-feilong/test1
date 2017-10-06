@@ -1,0 +1,121 @@
+body {
+	background: #242424;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	height: 257px;
+	width: 100%;
+	background: #fff;
+}
+.middle {
+	width: 1200px;
+	margin: 0 auto;
+	height: 257px;
+	overflow: hidden;
+	position: relative;
+}
+
+h1 {
+	display: inline-block;
+	margin: 115px 0px 100px 82px;
+	color: #5ca800;
+
+}
+#weixin {
+	display: inline-block;
+	width: 126px;
+	height: 126px;
+	background-image: url("img/weixin.png");
+	background-size: 126px 126px;
+	float: right;
+	margin: 68px 65px 65px 0px;
+}
+
+#logo {
+	float: left;
+	width: 126px;
+	height: 126px;
+	margin-left: 120px;
+	border-radius: 63px;
+	background-image: url("img/logo.png");
+	margin-top: 40px;
+}
+.name {
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	bottom: 48px;
+	left: 120px;
+}
+.content {
+	position: relative;
+	height: 257px;
+	width: 100%;
+	background: #5ca800;
+}
+
+.info {
+	padding: 16px;
+	width: 455px;
+	height: 78px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+}
+.info span {
+	position: absolute;
+	bottom: 48px;
+	left: 5px;
+}
+.info em {
+	margin-right: 70px;
+}
+.infos {
+	position: absolute;
+	width: 735px;
+	height: 133px;
+	right: 80px;
+	bottom: 20px;
+}
+
+.infos ul li span {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	float: left;
+}
+.infos ul li{
+	list-style: none;
+	float: left;
+	width: 360px;
+	height: 50px;
+	margin-bottom: 6px;
+	margin-right: 2px;
+	vertical-align: middle;
+	font-size: 20px;
+	color: #fff;
+	line-height: 40px;
+}
+
+.position {
+	background-image: url(img/1.png);
+}
+.phone {
+	background-image: url(img/tel.png);
+}
+.email {
+	background-image: url(img/2.png);
+}
+.qq {
+	background-image: url(img/qq.png);
+}
+.footer {
+	width: 100%;
+	height: 150px;
+	background: #242424;
+}
